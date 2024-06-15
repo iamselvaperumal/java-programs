@@ -6,10 +6,18 @@ public class DivisersOfNumber {
         System.out.println("Enter The Number :");
         int a = Scnner.nextInt();
 
-        for (int i = 1; i < a; i++) {
-            if (a%i == 0)
-                System.out.println("The Divider Is :"+i);
+       int count = 0;
+          for (int i = 1; i < a; i++) {
+
+            count++;
+
+            if (a % i == 0) {
+
+                System.out.println("The Divider Is :" +count);
 
         }
     }
 }
+}
+
+
